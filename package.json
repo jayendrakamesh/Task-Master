@@ -1,0 +1,28 @@
+{
+  "name": "task-master",
+  "version": "1.0.0",
+  "description": "An improvised version of todo list manager.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "live": "npx electronmon ."
+  },
+  "keywords": [
+    "electron",
+    "js",
+    "node",
+    "js"
+  ],
+  "author": "Jayendrakamesh",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.2.0",
+    "electron-rebuild": "^3.2.9"
+  },
+  "dependencies": {
+    "better-sqlite3": "^8.4.0",
+    "electronmon": "^2.0.2",
+    "sqlite3": "^5.1.6"
+  }
+}
