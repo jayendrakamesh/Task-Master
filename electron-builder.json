@@ -1,0 +1,38 @@
+{
+  "appId": "com.example.taskmaster",
+  "productName": "Task Master",
+  "directories": {
+    "output": "dist"
+  },
+  "files": [
+    "index.html",
+    "main.js",
+    "create-list.html",
+    "delete-list.html",
+    "edit-list.html",
+    "index.css",
+    "index2.css",
+    "todos.db",
+    "preload.js",
+    "renderer.js",
+    "renderer2.js",
+    "renderer3.js",
+    "dboperations.js",
+    "dbmgr.js"
+  ],
+  "extraResources": [
+    {
+      "from": "todos.db",
+      "to": "."
+    }
+  ],
+  "win": {
+    "target": "nsis"
+  },
+  "mac": {
+    "target": "dmg"
+  },
+  "linux": {
+    "target": "deb"
+  }
+}

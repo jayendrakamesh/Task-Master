@@ -1,9 +1,8 @@
-document.addEventListener('DOMContentLoaded', async () => {
-  let titles = await window.api.getTitles();
-  let menu = document.getElementById("list-select");
-  titles.forEach((title) => {
-    let option = document.createElement("option");
-    option.text = title;
-    menu.add(option);
-  });
+//for create-list.html
+let createButton = document.getElementById("create-submit");
+createButton.addEventListener("click", () => {
+  let listTitleInput = document.getElementById("list-title-input");
+  let title = listTitleInput.value.trim();
+  window.api.createList(title)
 });
+
